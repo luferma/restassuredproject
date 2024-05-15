@@ -1,0 +1,6 @@
+rootProject.name = 'RestAssuredProject'
+include 'src:main:files'
+findProject(':src:main:files')?.name = 'files'
+include 'src:test:jsonFiles'
+findProject(':src:test:jsonFiles')?.name = 'jsonFiles'
+
